@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Cnuboard</title>
+    </head>
+    <board>
+    <p>
+        {% for posts in posts %}
+        <div>
+            <h1>{{posts}}</h1>
+        </div>
+        {%endfor%}
+
+        <div>
+            <h2>start parser_data</h2>
+        {% for parsers in parser %}
+
+            <h4>{{parsers.text}}</h4>
+        {% endfor %}
+        </div>
+    </p>
+    </board>
+</html>

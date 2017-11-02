@@ -1,7 +1,6 @@
 from django.db import models
-
-# Create your models here.
 from django.utils import timezone
+
 
 
 class Post(models.Model):
@@ -19,3 +18,18 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
+
+class Blog_data(models.Model):
+    text = models.CharField(max_length=200)
+    link = models.URLField()
+
+    def publish(self):
+        self.save()
+
+    #제목을 링크의 주소로
+    def __str__(self):
+        return self.text
+
+
+
+    
