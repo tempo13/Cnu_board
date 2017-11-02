@@ -2,339 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83f850a5-9e7d-4b3d-87e7-08e8c437cd20" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/firefox/amd64/x_ignore_nofocus.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/firefox/webdriver.xpi" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/firefox/x86/x_ignore_nofocus.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/selenium/webdriver/firefox/amd64/x_ignore_nofocus.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/selenium/webdriver/firefox/x86/x_ignore_nofocus.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/cnuboard.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/migrations/0002_blog_data.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/templates/blog/post_list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/bin/chardetect" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/beautifulsoup4-4.6.0.dist-info/DESCRIPTION.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/beautifulsoup4-4.6.0.dist-info/INSTALLER" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/beautifulsoup4-4.6.0.dist-info/METADATA" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/beautifulsoup4-4.6.0.dist-info/RECORD" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/beautifulsoup4-4.6.0.dist-info/WHEEL" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/beautifulsoup4-4.6.0.dist-info/metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/beautifulsoup4-4.6.0.dist-info/top_level.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/bs4/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/bs4/builder/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/bs4/builder/_html5lib.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/bs4/builder/_htmlparser.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/bs4/builder/_lxml.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/bs4/dammit.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/bs4/diagnose.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/bs4/element.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/bs4/testing.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/bs4/tests/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/bs4/tests/test_builder_registry.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/bs4/tests/test_docs.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/bs4/tests/test_html5lib.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/bs4/tests/test_htmlparser.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/bs4/tests/test_lxml.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/bs4/tests/test_soup.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/bs4/tests/test_tree.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/certifi-2017.7.27.1.dist-info/DESCRIPTION.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/certifi-2017.7.27.1.dist-info/INSTALLER" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/certifi-2017.7.27.1.dist-info/METADATA" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/certifi-2017.7.27.1.dist-info/RECORD" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/certifi-2017.7.27.1.dist-info/WHEEL" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/certifi-2017.7.27.1.dist-info/metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/certifi-2017.7.27.1.dist-info/top_level.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/certifi/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/certifi/__main__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/certifi/cacert.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/certifi/core.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/certifi/old_root.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/certifi/weak.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet-3.0.4.dist-info/DESCRIPTION.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet-3.0.4.dist-info/INSTALLER" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet-3.0.4.dist-info/METADATA" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet-3.0.4.dist-info/RECORD" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet-3.0.4.dist-info/WHEEL" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet-3.0.4.dist-info/entry_points.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet-3.0.4.dist-info/metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet-3.0.4.dist-info/top_level.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet/big5freq.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet/big5prober.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet/chardistribution.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet/charsetgroupprober.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet/charsetprober.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet/cli/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet/cli/chardetect.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet/codingstatemachine.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet/compat.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet/cp949prober.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet/enums.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet/escprober.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet/escsm.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet/eucjpprober.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet/euckrfreq.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet/euckrprober.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet/euctwfreq.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet/euctwprober.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet/gb2312freq.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet/gb2312prober.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet/hebrewprober.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet/jisfreq.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet/jpcntx.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet/langbulgarianmodel.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet/langcyrillicmodel.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet/langgreekmodel.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet/langhebrewmodel.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet/langhungarianmodel.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet/langthaimodel.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet/langturkishmodel.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet/latin1prober.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet/mbcharsetprober.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet/mbcsgroupprober.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet/mbcssm.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet/sbcharsetprober.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet/sbcsgroupprober.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet/sjisprober.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet/universaldetector.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet/utf8prober.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/chardet/version.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/get-0.0.0.dist-info/DESCRIPTION.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/get-0.0.0.dist-info/INSTALLER" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/get-0.0.0.dist-info/METADATA" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/get-0.0.0.dist-info/RECORD" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/get-0.0.0.dist-info/WHEEL" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/get-0.0.0.dist-info/metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/get-0.0.0.dist-info/top_level.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/idna-2.6.dist-info/DESCRIPTION.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/idna-2.6.dist-info/INSTALLER" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/idna-2.6.dist-info/METADATA" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/idna-2.6.dist-info/RECORD" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/idna-2.6.dist-info/WHEEL" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/idna-2.6.dist-info/metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/idna-2.6.dist-info/top_level.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/idna/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/idna/codec.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/idna/compat.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/idna/core.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/idna/idnadata.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/idna/intranges.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/idna/package_data.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/idna/uts46data.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/post-0.0.0.dist-info/DESCRIPTION.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/post-0.0.0.dist-info/INSTALLER" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/post-0.0.0.dist-info/METADATA" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/post-0.0.0.dist-info/RECORD" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/post-0.0.0.dist-info/WHEEL" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/post-0.0.0.dist-info/metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/post-0.0.0.dist-info/top_level.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/public-0.0.0.dist-info/DESCRIPTION.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/public-0.0.0.dist-info/INSTALLER" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/public-0.0.0.dist-info/METADATA" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/public-0.0.0.dist-info/RECORD" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/public-0.0.0.dist-info/WHEEL" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/public-0.0.0.dist-info/metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/public-0.0.0.dist-info/top_level.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/query_string-0.0.0.dist-info/DESCRIPTION.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/query_string-0.0.0.dist-info/INSTALLER" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/query_string-0.0.0.dist-info/METADATA" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/query_string-0.0.0.dist-info/RECORD" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/query_string-0.0.0.dist-info/WHEEL" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/query_string-0.0.0.dist-info/metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/query_string-0.0.0.dist-info/top_level.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/request-0.0.0.dist-info/DESCRIPTION.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/request-0.0.0.dist-info/INSTALLER" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/request-0.0.0.dist-info/METADATA" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/request-0.0.0.dist-info/RECORD" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/request-0.0.0.dist-info/WHEEL" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/request-0.0.0.dist-info/metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/request-0.0.0.dist-info/top_level.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/requests-2.18.4.dist-info/DESCRIPTION.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/requests-2.18.4.dist-info/INSTALLER" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/requests-2.18.4.dist-info/METADATA" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/requests-2.18.4.dist-info/RECORD" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/requests-2.18.4.dist-info/WHEEL" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/requests-2.18.4.dist-info/metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/requests-2.18.4.dist-info/top_level.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/requests/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/requests/__version__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/requests/_internal_utils.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/requests/adapters.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/requests/api.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/requests/auth.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/requests/certs.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/requests/compat.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/requests/cookies.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/requests/exceptions.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/requests/help.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/requests/hooks.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/requests/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/requests/packages.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/requests/sessions.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/requests/status_codes.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/requests/structures.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/requests/utils.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium-3.6.0.dist-info/DESCRIPTION.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium-3.6.0.dist-info/INSTALLER" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium-3.6.0.dist-info/METADATA" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium-3.6.0.dist-info/RECORD" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium-3.6.0.dist-info/WHEEL" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium-3.6.0.dist-info/metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium-3.6.0.dist-info/top_level.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/common/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/common/exceptions.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/android/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/android/webdriver.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/blackberry/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/blackberry/webdriver.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/chrome/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/chrome/options.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/chrome/remote_connection.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/chrome/service.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/chrome/webdriver.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/common/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/common/action_chains.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/common/actions/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/common/actions/action_builder.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/common/actions/input_device.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/common/actions/interaction.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/common/actions/key_actions.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/common/actions/key_input.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/common/actions/mouse_button.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/common/actions/pointer_actions.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/common/actions/pointer_input.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/common/alert.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/common/by.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/common/desired_capabilities.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/common/html5/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/common/html5/application_cache.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/common/keys.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/common/proxy.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/common/service.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/common/touch_actions.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/common/utils.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/edge/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/edge/options.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/edge/service.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/edge/webdriver.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/firefox/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/firefox/extension_connection.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/firefox/firefox_binary.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/firefox/firefox_profile.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/firefox/options.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/firefox/remote_connection.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/firefox/service.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/firefox/webdriver.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/firefox/webdriver_prefs.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/firefox/webelement.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/ie/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/ie/options.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/ie/service.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/ie/webdriver.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/opera/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/opera/options.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/opera/webdriver.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/phantomjs/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/phantomjs/service.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/phantomjs/webdriver.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/remote/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/remote/command.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/remote/file_detector.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/remote/getAttribute.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/remote/isDisplayed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/remote/mobile.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/remote/remote_connection.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/remote/switch_to.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/remote/utils.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/safari/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/safari/service.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/safari/webdriver.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/support/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/support/abstract_event_listener.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/support/color.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/support/event_firing_webdriver.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/support/events.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/support/expected_conditions.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/support/select.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/support/ui.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/selenium/webdriver/support/wait.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/setupfiles-0.0.50.dist-info/DESCRIPTION.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/setupfiles-0.0.50.dist-info/INSTALLER" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/setupfiles-0.0.50.dist-info/METADATA" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/setupfiles-0.0.50.dist-info/RECORD" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/setupfiles-0.0.50.dist-info/WHEEL" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/setupfiles-0.0.50.dist-info/metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/setupfiles-0.0.50.dist-info/top_level.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/setupfiles/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/setupfiles/attrs/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/setupfiles/attrs/dependency_links.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/setupfiles/attrs/entry_points.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/setupfiles/attrs/install_requires.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/setupfiles/attrs/packages.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/setupfiles/attrs/py_modules.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/setupfiles/attrs/scripts.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/setupfiles/dist.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/setupfiles/setup.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/urllib3-1.22.dist-info/DESCRIPTION.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/urllib3-1.22.dist-info/INSTALLER" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/urllib3-1.22.dist-info/METADATA" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/urllib3-1.22.dist-info/RECORD" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/urllib3-1.22.dist-info/WHEEL" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/urllib3-1.22.dist-info/metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/urllib3-1.22.dist-info/top_level.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/urllib3/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/urllib3/_collections.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/urllib3/connection.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/urllib3/connectionpool.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/urllib3/contrib/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/urllib3/contrib/_securetransport/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/urllib3/contrib/_securetransport/bindings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/urllib3/contrib/_securetransport/low_level.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/urllib3/contrib/appengine.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/urllib3/contrib/ntlmpool.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/urllib3/contrib/pyopenssl.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/urllib3/contrib/securetransport.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/urllib3/contrib/socks.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/urllib3/exceptions.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/urllib3/fields.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/urllib3/filepost.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/urllib3/packages/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/urllib3/packages/backports/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/urllib3/packages/backports/makefile.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/urllib3/packages/ordered_dict.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/urllib3/packages/six.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/urllib3/packages/ssl_match_hostname/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/urllib3/packages/ssl_match_hostname/_implementation.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/urllib3/poolmanager.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/urllib3/request.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/urllib3/response.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/urllib3/util/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/urllib3/util/connection.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/urllib3/util/request.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/urllib3/util/response.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/urllib3/util/retry.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/urllib3/util/selectors.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/urllib3/util/ssl_.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/urllib3/util/timeout.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/urllib3/util/url.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/lib/python3.5/site-packages/urllib3/util/wait.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/selenium/webdriver/remote/getAttribute.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cnuboard/selenium/webdriver/remote/isDisplayed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/craw.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ghostdriver.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/admin.py" afterPath="$PROJECT_DIR$/blog/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/blog/migrations/0001_initial.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/models.py" afterPath="$PROJECT_DIR$/blog/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/templates/blog/post_list.html" afterPath="$PROJECT_DIR$/blog/templates/blog/post_list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/urls.py" afterPath="$PROJECT_DIR$/blog/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/views.py" afterPath="$PROJECT_DIR$/blog/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite/urls.py" afterPath="$PROJECT_DIR$/mysite/urls.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -344,14 +15,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.45645934">
+    <splitter split-orientation="horizontal" split-proportion="0.4181818">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/blog/urls.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="90">
-                  <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+                  <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
                   <folding>
                     <element signature="e#0#32#0" expanded="true" />
                   </folding>
@@ -374,8 +45,8 @@
           <file leaf-file-name="post_list.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/blog/templates/blog/post_list.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+                <state relative-caret-position="105">
+                  <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
                   <folding />
                 </state>
               </provider>
@@ -388,8 +59,8 @@
           <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/blog/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" column="68" lean-forward="false" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
+                <state relative-caret-position="120">
+                  <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
                   <folding>
                     <element signature="e#0#35#0" expanded="true" />
                   </folding>
@@ -879,16 +550,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="68" lean-forward="false" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -901,16 +562,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/templates/blog/post_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        <state relative-caret-position="105">
+          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
