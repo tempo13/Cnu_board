@@ -5,7 +5,9 @@
     <board>
     <p>
         <div>
-            <h1>{{posts}}</h1>
+        {% for post in posts %}
+            <h1>{{post.title}}</h1>
+        {% endfor %}
         </div>
 
         <div>
@@ -13,6 +15,9 @@
         {% for parsers in parser %}
 
             <h4>{{parsers.text}}</h4>
+            <a href="{{parsers.link}}" target="_blank">
+                <p style="font-size:9px">링크</p>
+            </a>
         {% endfor %}
         </div>
     </p>
