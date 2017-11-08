@@ -1,20 +1,20 @@
-[INFO  - 2017-11-07T02:34:21.017Z] GhostDriver - Main - running on port 55012
-[INFO  - 2017-11-07T02:34:21.814Z] Session [2979e610-c364-11e7-b298-d3ea87ebfa62] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
-[INFO  - 2017-11-07T02:34:21.814Z] Session [2979e610-c364-11e7-b298-d3ea87ebfa62] - page.customHeaders:  - {}
-[INFO  - 2017-11-07T02:34:21.814Z] Session [2979e610-c364-11e7-b298-d3ea87ebfa62] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
-[INFO  - 2017-11-07T02:34:21.814Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 2979e610-c364-11e7-b298-d3ea87ebfa62
-[ERROR - 2017-11-07T02:34:23.860Z] Session [2979e610-c364-11e7-b298-d3ea87ebfa62] - page.onError - msg: TypeError: undefined is not a constructor (evaluating '$('.view_reply').live')
+[INFO  - 2017-11-08T07:17:26.552Z] GhostDriver - Main - running on port 50211
+[INFO  - 2017-11-08T07:17:27.424Z] Session [e01a33c0-c454-11e7-8edd-83661ed5b9ac] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-11-08T07:17:27.424Z] Session [e01a33c0-c454-11e7-8edd-83661ed5b9ac] - page.customHeaders:  - {}
+[INFO  - 2017-11-08T07:17:27.424Z] Session [e01a33c0-c454-11e7-8edd-83661ed5b9ac] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-11-08T07:17:27.424Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: e01a33c0-c454-11e7-8edd-83661ed5b9ac
+[ERROR - 2017-11-08T07:17:37.509Z] Session [e01a33c0-c454-11e7-8edd-83661ed5b9ac] - page.onError - msg: TypeError: undefined is not a constructor (evaluating '$('.view_reply').live')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-11-07T02:34:23.860Z] Session [2979e610-c364-11e7-b298-d3ea87ebfa62] - page.onError - stack:
-  (anonymous function) (http://plus.cnu.ac.kr/_prog/_board/?mode=V&no=2331971&code=sub07_070801&site_dvs_cd=kr&menu_dvs_cd=070801&skey=&sval=&site_dvs=&ntt_tag=&GotoPage=:1149)
+[ERROR - 2017-11-08T07:17:37.509Z] Session [e01a33c0-c454-11e7-8edd-83661ed5b9ac] - page.onError - stack:
+  (anonymous function) (http://plus.cnu.ac.kr/_prog/_board/?mode=V&no=2332096&code=sub07_070801&site_dvs_cd=kr&menu_dvs_cd=070801&skey=&sval=&site_dvs=&ntt_tag=&GotoPage=:1149)
   f (http://plus.cnu.ac.kr/tmpl/kr/js/jquery-1.9.0.min.js:1)
   fireWith (http://plus.cnu.ac.kr/tmpl/kr/js/jquery-1.9.0.min.js:1)
   ready (http://plus.cnu.ac.kr/tmpl/kr/js/jquery-1.9.0.min.js:1)
   xt (http://plus.cnu.ac.kr/tmpl/kr/js/jquery-1.9.0.min.js:1)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-11-07T02:34:26.994Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1510022066957
+[ERROR - 2017-11-08T07:17:45.261Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1510125465226
 
   phantomjs://platform/console++.js:263 in error
-[INFO  - 2017-11-07T02:39:21.028Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-11-08T07:22:26.568Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asy[INFO  - 2017-11-08T07:22:39.197Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW

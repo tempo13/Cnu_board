@@ -31,6 +31,7 @@ class Blog_data(models.Model):
         return self.text
 
 class Market_data(models.Model):
+
     title = models.CharField(max_length=200) #글 제목
     writer = models.CharField(max_length=100) #작성자
     date = models.CharField(max_length=100) #작성 날짜

@@ -16,8 +16,8 @@ def craw():
 <<<<<<< HEAD
     phantomjs = os.path.expanduser("~") + '/Documents/phantomjs-2.1.1-macosx/bin/phantomjs'
 =======
-    phantomjs = '@'
->>>>>>> 2612cffc18685a7ad4fcbbe37f00e70ca238a929
+    phantomjs = os.path.expanduser("~")+'/Documents/phantomjs-2.1.1-macosx/bin/phantomjs'
+>>>>>>> 37de6b9b6f9b5b92c029fa164b166d71600fdc01
     driver = webdriver.PhantomJS(phantomjs)
     url = 'http://plus.cnu.ac.kr/_prog/_board/?code=sub07_070801&site_dvs_cd=kr&menu_dvs_cd=070801'
     driver.get(url)

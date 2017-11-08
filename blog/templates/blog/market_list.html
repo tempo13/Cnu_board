@@ -36,9 +36,33 @@
                 </div>
                 <div class="modal-body">
                     {% if ms.anchor == "img" %}
-                    <img src="{{ms.download_link}}" style="width:400px;margin-left: auto; margin-right: auto; display: block;">
+                    <img src="{{ms.download_link|slice:'2:99'}}" style="width:400px;margin-left: auto; margin-right: auto; display: block;">
+                        {% if ms.download_link|length < 220 and ms.download_link|length > 101 %}
+                        <img src="{{ms.download_link|slice:'103:200'}}" style="width:400px;margin-left: auto; margin-right: auto; display: block;">
+                        {% elif ms.download_link|length > 220 and ms.download_link|length < 310 %}
+                        <img src="{{ms.download_link|slice:'103:200'}}" style="width:400px;margin-left: auto; margin-right: auto; display: block;">
+                        <img src="{{ms.download_link|slice:'204:301'}}" style="width:400px;margin-left: auto; margin-right: auto; display: block;">
+                        {% elif ms.download_link|length > 310 and ms.download_link|length < 410 %}
+                        <img src="{{ms.download_link|slice:'103:200'}}" style="width:400px;margin-left: auto; margin-right: auto; display: block;">
+                        <img src="{{ms.download_link|slice:'204:301'}}" style="width:400px;margin-left: auto; margin-right: auto; display: block;">
+                        <img src="{{ms.download_link|slice:'305:401'}}" style="width:400px;margin-left: auto; margin-right: auto; display: block;">
+                        {% else %}
+                        {% endif %}
+
                     {% elif ms.anchor == "doc" %}
-                    첨부파일 : <a href="{{ms.download_link}}">{{ms.at_file_name}}</a>
+                        첨부파일 : <a href="{{ms.download_link|slice:'2:99'}}">{{ms.at_file_name|slice:"2:-2"}}</a>
+                        {% if ms.download_link|length < 220 and ms.download_link|length > 101 %}
+                        ,<a href="{{ms.download_link|slice:'103:200'}}">{{ms.at_file_name|slice:"2:-2"}}</a>
+                        {% elif ms.download_link|length > 220 and ms.download_link|length < 310 %}
+                        ,<a href="{{ms.download_link|slice:'103:200'}}">{{ms.at_file_name|slice:"2:-2"}}</a>
+                        ,<a href="{{ms.download_link|slice:'204:301'}}">{{ms.at_file_name|slice:"2:-2"}}</a>
+                        {% elif ms.download_link|length > 310 and ms.download_link|length < 410 %}
+                        ,<a href="{{ms.download_link|slice:'103:200'}}">{{ms.at_file_name|slice:"2:-2"}}</a>
+                        ,<a href="{{ms.download_link|slice:'204:301'}}">{{ms.at_file_name|slice:"2:-2"}}</a>
+                        ,<a href="{{ms.download_link|slice:'305:401'}}">{{ms.at_file_name|slice:"2:-2"}}</a>
+                        {% else %}
+                        {% endif %}
+
                     {% else %}
                     {% endif %}
 
@@ -66,9 +90,9 @@
                 </div>
                 <div class="modal-body">
                     {% if ms.anchor == "img" %}
-                    <img src="{{ms.download_link}}" style="width:400px;margin-left: auto; margin-right: auto; display: block;">
+                    <img src="{{ms.download_link.0}}" style="width:400px;margin-left: auto; margin-right: auto; display: block;">
                     {% elif ms.anchor == "doc" %}
-                    첨부파일 : <a href="{{ms.download_link}}">{{ms.at_file_name}}</a>
+                    첨부파일 : <a href="{{ms.download_link.0}}">{{ms.at_file_name}}</a>
                     {% else %}
                     {% endif %}
 
