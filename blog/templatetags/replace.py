@@ -4,4 +4,7 @@ register = template.Library()
 
 @register.filter
 def replace(value):
-    return value.replace('<br>','')
+    a=value.replace('[', '')
+    b=a.replace(']', '')
+    c=b.replace("'", "")
+    return c

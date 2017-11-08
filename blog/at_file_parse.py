@@ -64,15 +64,27 @@ def src_parser(url):
     try:
         soup.select("li.file > div")[0].find('a').get('href') #첨부파일 확인
         url_list, name_list=at_file_check() # 첨부파일 리스트 출력
-        if name_list[0][-3:] == "jpg" or name_list[0][-3:] =="png":
+        if len(url_list) == 1:
             Market_data(title=content_title, writer=content_writer, date=content_date, text=content_text,
-                        at_file_name=name_list, download_link=url_list, anchor="img").save()
-        else:
+                        at_file_name1=name_list[0], download_link1=url_list[0], anchor="one").save()
+        if len(url_list) == 2:
             Market_data(title=content_title, writer=content_writer, date=content_date, text=content_text,
-                        at_file_name=name_list, download_link=url_list, anchor="doc").save()
+                        at_file_name1=name_list[0], at_file_name2=name_list[1], download_link1=url_list[0],
+                        download_link2=url_list[1], anchor="two").save()
+        if len(url_list) == 3:
+            Market_data(title=content_title, writer=content_writer, date=content_date, text=content_text,
+                        at_file_name1=name_list[0], at_file_name2=name_list[1], at_file_name3=name_list[2],
+                        download_link1=url_list[0], download_link2=url_list[1], download_link3=url_list[2],
+                        anchor="three").save()
+        if len(url_list) == 4:
+            Market_data(title=content_title, writer=content_writer, date=content_date, text=content_text,
+                        at_file_name1=name_list[0], at_file_name2=name_list[1], at_file_name3=name_list[2], at_file_name4=name_list[3],
+                        download_link1=url_list[0], download_link2=url_list[1], download_link3=url_list[2], download_link4=url_list[3],
+                        anchor="four").save()
+
 
 
     except:
         Market_data(title=content_title, writer=content_writer, date=content_date, text=content_text,
                     anchor="docn").save()
-        print("글이 없습니다", content_title)
+

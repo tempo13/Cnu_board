@@ -35,36 +35,46 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    {% if ms.anchor == "img" %}
-                    <img src="{{ms.download_link|slice:'2:99'}}" style="width:400px;margin-left: auto; margin-right: auto; display: block;">
-                        {% if ms.download_link|length < 220 and ms.download_link|length > 101 %}
-                        <img src="{{ms.download_link|slice:'103:200'}}" style="width:400px;margin-left: auto; margin-right: auto; display: block;">
-                        {% elif ms.download_link|length > 220 and ms.download_link|length < 310 %}
-                        <img src="{{ms.download_link|slice:'103:200'}}" style="width:400px;margin-left: auto; margin-right: auto; display: block;">
-                        <img src="{{ms.download_link|slice:'204:301'}}" style="width:400px;margin-left: auto; margin-right: auto; display: block;">
-                        {% elif ms.download_link|length > 310 and ms.download_link|length < 410 %}
-                        <img src="{{ms.download_link|slice:'103:200'}}" style="width:400px;margin-left: auto; margin-right: auto; display: block;">
-                        <img src="{{ms.download_link|slice:'204:301'}}" style="width:400px;margin-left: auto; margin-right: auto; display: block;">
-                        <img src="{{ms.download_link|slice:'305:401'}}" style="width:400px;margin-left: auto; margin-right: auto; display: block;">
-                        {% else %}
+                    <!-- Attached file -->
+                    {% if ms.anchor == "one" %}
+                        {% if ms.at_file_name1|slice:"-3:" == "jpg" or ms.at_file_name1|slice:"-3:" == "png" %}
+                            <img src="{{ms.download_link1}}">
+                        {% elif ms.at_file_name1|slice:"-3:" == "pdf" or ms.at_file_name1|slice:"-3:" == "hwp" %}
+                            첨부파일 : <a href="{{ms.download_link1}}">{{ms.at_file_name1}}</a>
                         {% endif %}
-
-                    {% elif ms.anchor == "doc" %}
-                        첨부파일 : <a href="{{ms.download_link|slice:'2:99'}}">{{ms.at_file_name|slice:"2:-2"}}</a>
-                        {% if ms.download_link|length < 220 and ms.download_link|length > 101 %}
-                        ,<a href="{{ms.download_link|slice:'103:200'}}">{{ms.at_file_name|slice:"2:-2"}}</a>
-                        {% elif ms.download_link|length > 220 and ms.download_link|length < 310 %}
-                        ,<a href="{{ms.download_link|slice:'103:200'}}">{{ms.at_file_name|slice:"2:-2"}}</a>
-                        ,<a href="{{ms.download_link|slice:'204:301'}}">{{ms.at_file_name|slice:"2:-2"}}</a>
-                        {% elif ms.download_link|length > 310 and ms.download_link|length < 410 %}
-                        ,<a href="{{ms.download_link|slice:'103:200'}}">{{ms.at_file_name|slice:"2:-2"}}</a>
-                        ,<a href="{{ms.download_link|slice:'204:301'}}">{{ms.at_file_name|slice:"2:-2"}}</a>
-                        ,<a href="{{ms.download_link|slice:'305:401'}}">{{ms.at_file_name|slice:"2:-2"}}</a>
-                        {% else %}
+                    {% elif ms.anchor == "two" %}
+                        {% if ms.at_file_name1|slice:"-3:" == "jpg" or ms.at_file_name1|slice:"-3:" == "png" %}
+                            <img src="{{ms.download_link1}}">
+                            <img src="{{ms.download_link2}}">
+                        {% elif ms.at_file_name1|slice:"-3:" == "pdf" or ms.at_file_name1|slice:"-3:" == "hwp" %}
+                            첨부파일 : <a href="{{ms.download_link1}}">{{ms.at_file_name1}}</a>
+                            ,<a href="{{ms.download_link2}}">{{ms.at_file_name2}}</a>
                         {% endif %}
-
+                    {% elif ms.anchor == "three" %}
+                        {% if ms.at_file_name1|slice:"-3:" == "jpg" or ms.at_file_name1|slice:"-3:" == "png" %}
+                            <img src="{{ms.download_link1}}">
+                            <img src="{{ms.download_link2}}">
+                            <img src="{{ms.download_link3}}">
+                        {% elif ms.at_file_name1|slice:"-3:" == "pdf" or ms.at_file_name1|slice:"-3:" == "hwp" %}
+                            첨부파일 : <a href="{{ms.download_link1}}">{{ms.at_file_name1}}</a>
+                            ,<a href="{{ms.download_link2}}">{{ms.at_file_name2}}</a>
+                            ,<a href="{{ms.download_link3}}">{{ms.at_file_name3}}</a>
+                        {% endif %}
+                    {% elif ms.anchor == "four" %}
+                        {% if ms.at_file_name1|slice:"-3:" == "jpg" or ms.at_file_name1|slice:"-3:" == "png" %}
+                            <img src="{{ms.download_link1}}">
+                            <img src="{{ms.download_link2}}">
+                            <img src="{{ms.download_link3}}">
+                            <img src="{{ms.download_link4}}">
+                        {% elif ms.at_file_name1|slice:"-3:" == "pdf" or ms.at_file_name1|slice:"-3:" == "hwp" %}
+                            첨부파일 : <a href="{{ms.download_link1}}">{{ms.at_file_name1}}</a>
+                            ,<a href="{{ms.download_link2}}">{{ms.at_file_name2}}</a>
+                            ,<a href="{{ms.download_link3}}">{{ms.at_file_name3}}</a>
+                            ,<a href="{{ms.download_link4}}">{{ms.at_file_name4}}</a>
+                        {% endif %}
                     {% else %}
                     {% endif %}
+
 
                     <div id="cont_text">
                         {{ms.text|linebreaksbr}}
@@ -89,12 +99,45 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    {% if ms.anchor == "img" %}
-                    <img src="{{ms.download_link.0}}" style="width:400px;margin-left: auto; margin-right: auto; display: block;">
-                    {% elif ms.anchor == "doc" %}
-                    첨부파일 : <a href="{{ms.download_link.0}}">{{ms.at_file_name}}</a>
+                    {% if ms.anchor == "one" %}
+                        {% if ms.at_file_name1|slice:"-3:" == "jpg" or ms.at_file_name1|slice:"-3:" == "png" %}
+                            <img src="{{ms.download_link1}}">
+                        {% elif ms.at_file_name1|slice:"-3:" == "pdf" or ms.at_file_name1|slice:"-3:" == "hwp" %}
+                            첨부파일 : <a href="{{ms.download_link1}}">{{ms.at_file_name1}}</a>
+                        {% endif %}
+                    {% elif ms.anchor == "two" %}
+                        {% if ms.at_file_name1|slice:"-3:" == "jpg" or ms.at_file_name1|slice:"-3:" == "png" %}
+                            <img src="{{ms.download_link1}}">
+                            <img src="{{ms.download_link2}}">
+                        {% elif ms.at_file_name1|slice:"-3:" == "pdf" or ms.at_file_name1|slice:"-3:" == "hwp" %}
+                            첨부파일 : <a href="{{ms.download_link1}}">{{ms.at_file_name1}}</a>
+                            ,<a href="{{ms.download_link2}}">{{ms.at_file_name2}}</a>
+                        {% endif %}
+                    {% elif ms.anchor == "three" %}
+                        {% if ms.at_file_name1|slice:"-3:" == "jpg" or ms.at_file_name1|slice:"-3:" == "png" %}
+                            <img src="{{ms.download_link1}}">
+                            <img src="{{ms.download_link2}}">
+                            <img src="{{ms.download_link3}}">
+                        {% elif ms.at_file_name1|slice:"-3:" == "pdf" or ms.at_file_name1|slice:"-3:" == "hwp" %}
+                            첨부파일 : <a href="{{ms.download_link1}}">{{ms.at_file_name1}}</a>
+                            ,<a href="{{ms.download_link2}}">{{ms.at_file_name2}}</a>
+                            ,<a href="{{ms.download_link3}}">{{ms.at_file_name3}}</a>
+                        {% endif %}
+                    {% elif ms.anchor == "four" %}
+                        {% if ms.at_file_name1|slice:"-3:" == "jpg" or ms.at_file_name1|slice:"-3:" == "png" %}
+                            <img src="{{ms.download_link1}}">
+                            <img src="{{ms.download_link2}}">
+                            <img src="{{ms.download_link3}}">
+                            <img src="{{ms.download_link4}}">
+                        {% elif ms.at_file_name1|slice:"-3:" == "pdf" or ms.at_file_name1|slice:"-3:" == "hwp" %}
+                            첨부파일 : <a href="{{ms.download_link1}}">{{ms.at_file_name1}}</a>
+                            ,<a href="{{ms.download_link2}}">{{ms.at_file_name2}}</a>
+                            ,<a href="{{ms.download_link3}}">{{ms.at_file_name3}}</a>
+                            ,<a href="{{ms.download_link4}}">{{ms.at_file_name4}}</a>
+                        {% endif %}
                     {% else %}
                     {% endif %}
+
 
                     <div id="cont_text">
                         {{ms.text|linebreaksbr}}
