@@ -1,0 +1,90 @@
+{% load staticfiles %}
+{% load replace %}
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosanskr.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <title>Market List</title>
+</head>
+
+<body>
+    {% for ms in market %}
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#{{ms.pk}}">
+        <p id="title">{{ms.title}}</p>
+        <p id="writer">{{ms.writer}}</p>
+        <p id="date">{{ms.date}}</p>
+    </button>
+    <div class="modal fade" id="{{ms.pk}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+    {% if ms.text|length <= 1000 %}
+
+    <div class="modal-dialog modal-mid" role="document">
+            <div class="modal-content modal-mid">
+                <div class="modal-header">
+                        <h6 class="modal-title" id="exampleModalLabel">
+                            {{ms.title}}
+                        </h6>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    {% if ms.anchor == "img" %}
+                    <img src="{{ms.download_link}}" style="width:400px;margin-left: auto; margin-right: auto; display: block;">
+                    {% elif ms.anchor == "doc" %}
+                    첨부파일 : <a href="{{ms.download_link}}">{{ms.at_file_name}}</a>
+                    {% else %}
+                    {% endif %}
+
+                    <div id="cont_text">
+                        {{ms.text|linebreaksbr}}
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    {% else %}
+
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                        <h6 class="modal-title" id="exampleModalLabel">
+                            {{ms.title}}
+                        </h6>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    {% if ms.anchor == "img" %}
+                    <img src="{{ms.download_link}}" style="width:400px;margin-left: auto; margin-right: auto; display: block;">
+                    {% elif ms.anchor == "doc" %}
+                    첨부파일 : <a href="{{ms.download_link}}">{{ms.at_file_name}}</a>
+                    {% else %}
+                    {% endif %}
+
+                    <div id="cont_text">
+                        {{ms.text|linebreaksbr}}
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {% endif%}
+    </div>
+
+    {% endfor %}
+</body>
+</html>

@@ -13,7 +13,7 @@ from blog.models import Blog_data
 
 def craw():
     cont_list = {}
-    phantomjs = '/Users/parkjongwho/Documents/phantomjs-2.1.1-macosx/bin/phantomjs'
+    phantomjs = os.path.expanduser("~") + '/Documents/phantomjs-2.1.1-macosx/bin/phantomjs'
     driver = webdriver.PhantomJS(phantomjs)
     url = 'http://plus.cnu.ac.kr/_prog/_board/?code=sub07_070801&site_dvs_cd=kr&menu_dvs_cd=070801'
     driver.get(url)

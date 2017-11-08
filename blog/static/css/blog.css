@@ -1,0 +1,13 @@
+div p{
+    text-align: center;
+}
+p{
+    color:white;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+#cont_text{
+    margin:10px;
+}
+.modal-dialog .modal-mid{
+    width:600px;
+}
