@@ -50,6 +50,24 @@ class Market_data(models.Model):
     def __str__(self):
         return self.title
 
+class Board_data(models.Model):
 
+    title = models.CharField(max_length=200) #글 제목
+    writer = models.CharField(max_length=100) #작성자
+    date = models.CharField(max_length=100) #작성 날짜
+    text = models.TextField() #글 내용
+    at_file_name1 = models.CharField(max_length=100, default='some')  #첨부파일 이름
+    at_file_name2 = models.CharField(max_length=100, default='some')  # 첨부파일 이름
+    at_file_name3 = models.CharField(max_length=100, default='some')  # 첨부파일 이름
+    at_file_name4 = models.CharField(max_length=100, default='some')  # 첨부파일 이름
+
+    download_link1 = models.CharField(max_length=200, default='some')  #첨부파일 html 링크
+    download_link2 = models.CharField(max_length=200, default='some')  # 첨부파일 html 링크
+    download_link3 = models.CharField(max_length=200, default='some')  # 첨부파일 html 링크
+    download_link4 = models.CharField(max_length=200, default='some')  # 첨부파일 html 링크
+    anchor = models.CharField(max_length=10, default='some')
+
+    def __str__(self):
+        return self.title
 
     

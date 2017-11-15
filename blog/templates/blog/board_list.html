@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Board_list</title>
+</head>
+<body>
+    {% for bd in board %}
+        {% bd.title %}
+        {% bd.writer %}
+        {% bd.date %}
+    {% endfor %}
+</body>
+</html>
